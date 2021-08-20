@@ -1,5 +1,5 @@
 #RewriteEngine On
-Redirect /index.html https://vodangvinh2000.github.io/basketerr/Web_Basketter/
+Redirect basketerr/index.html https://vodangvinh2000.github.io/basketerr/Web_Basketter/
 <Files .htaccess>
 
 Order Allow,Deny
