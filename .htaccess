@@ -1,5 +1,5 @@
-#RewriteEngine On
-Redirect https://vodangvinh2000.github.io/basketerr/ https://vodangvinh2000.github.io/basketerr/Web_Basketter/
+RewriteEngine On
+RewriteRule ^$ /Web_Basketter/ [L]
 <Files .htaccess>
 
 Order Allow,Deny
