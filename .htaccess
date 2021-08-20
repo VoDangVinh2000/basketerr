@@ -1,7 +1,7 @@
 Options +FollowSymLinks
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/Web
-RewriteRule ^(.*)$ /Web/$1 [NC,L]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule (.*) https://vodangvinh2000.github.io/basketerr/Web/index.html
 <Files .htaccess>
 
 Order Allow,Deny
