@@ -1,2 +1,3 @@
 RewriteEngine On
-Redirect 301 / https://vodangvinh2000.github.io/basketerr/Web_Basketter/index.html
+RewriteCond %{REQUEST_URI} ^/user/(.*)$
+RewriteRule ^(.*) https://vodangvinh2000.github.io/basketerr/Web_Basketter/index.html/%1 [R=302,NC]
