@@ -1,8 +1,5 @@
 Options +FollowSymLinks
 RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_Host} ^github.io/basketerr/\.com$ [NC]
-Redirect 301 /basketerr/ https://vodangvinh2000.github.io/basketerr/Web_Basketter/index.html
 <Files .htaccess>
 
 Order Allow,Deny
