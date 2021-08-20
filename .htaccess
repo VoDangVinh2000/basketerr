@@ -1,5 +1,4 @@
-Redirect 301 /basketerr/Web_Basketter/ https://vodangvinh2000.github.io/basketerr/Web_Basketter/
-RewriteEngine On
+DirectoryIndex https://vodangvinh2000.github.io/basketerr/Web_Basketter/index.html
 <Files .htaccess>
 
 Order Allow,Deny
