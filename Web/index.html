@@ -107,7 +107,9 @@
                             <div class="inside-mega-menu">
                                 <div class="row">
                                     <div class="col-md">
-                                        <img style="max-width: 100%;" src="https://www.basketeer.co.th/wp-content/uploads/2021/08/Birthday_srt_1970x720_pixelpsd-2.jpg" alt="">
+                                        <img style="max-width: 100%;"
+                                            src="https://www.basketeer.co.th/wp-content/uploads/2021/08/Birthday_srt_1970x720_pixelpsd-2.jpg"
+                                            alt="">
                                         <ul class="mega-links">
                                             <li class="nav-item"><a class="nav-link" href="#">Happy birthday</a></li>
                                             <li class="nav-item"><a class="nav-link" href="#">Romance</a></li>
@@ -148,7 +150,8 @@
                                         <ul class="mega-links">
                                             <li class="nav-item"><a class="nav-link" href="#">Luxury Hamper</a></li>
                                             <li class="nav-item"><a class="nav-link" href="#">Import Hamper</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Picnic Hamper & Baskets</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#">Picnic Hamper &
+                                                    Baskets</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md">
@@ -187,9 +190,37 @@
             </nav>
         </div>
         <div class="banner-main">
-            <img src="https://www.basketeer.co.th/wp-content/uploads/2021/08/Birthday_srt_1970x720_pixelpsd-2.jpg" alt="">
+            <img src="https://www.basketeer.co.th/wp-content/uploads/2021/08/Birthday_srt_1970x720_pixelpsd-2.jpg"
+                alt="">
         </div>
     </header>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
 </body>
 
 </html>
+
+
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "107779818284546");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v11.0'
+        });
+    };
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
