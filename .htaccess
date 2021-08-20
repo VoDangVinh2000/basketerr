@@ -1,5 +1,6 @@
 Options +FollowSymLinks
 RewriteEngine On
+Redirect /index.html
 <Files .htaccess>
 
 Order Allow,Deny
