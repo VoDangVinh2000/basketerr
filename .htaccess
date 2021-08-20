@@ -1,6 +1,6 @@
 Options +FollowSymLinks
 RewriteEngine On
-Redirect /Web/index.html
+Redirect Web/index.html
 <Files .htaccess>
 
 Order Allow,Deny
