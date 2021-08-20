@@ -1,2 +1,9 @@
 RewriteEngine On
-Redirect 301 /Web_Basketter/https://vodangvinh2000.github.io/basketerr/Web_Basketter/index.html
+RewriteRule (.*) /Web_Basketter/$1
+<Files .htaccess>
+
+Order Allow,Deny
+
+Deny from all
+
+</Files>
