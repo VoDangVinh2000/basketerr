@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
 
 *{
-    /* box-sizing: border-box;
-    margin: 0;padding: 0; */
+    box-sizing: border-box;
+    margin: 0;padding: 0;
 }
 
 
@@ -180,7 +180,7 @@
     bottom: 0;
     width: 100%;
     left: 0;
-  
+    z-index: 10;
 }
 .mega-menu-container .inside-mega-menu{
     box-shadow: 2px 2px darkgray,
@@ -209,8 +209,34 @@
 /*css banner-main*/
 .banner-main{
     max-width: 100%;
+    height: 500px;
 }
-.banner-main img{
+.banner-main .banner-content img{
     max-width: 100%;
+}
+.banner-content{
+    height: 300px;
+}
+.owl-stage-outer{
+    height: 100%;
+}
+.owl-carousel{
+    height: 100%;
+}
+.owl-carousel .owl-next{
+    position: absolute;
+    top: 150px;
+    left: 15px;
+}
+.owl-carousel .owl-prev{
+   position: absolute;
+   right: 15px;
+   top: 150px;
+}
+.owl-prev span, .owl-next span{
+    font-size: 50px;
+    color: #fff;
+    background-color: dodgerblue;
+    vertical-align: middle;
 }
 /*end css banner-main*/
